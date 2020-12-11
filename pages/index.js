@@ -10,6 +10,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      <div className="banner">
+       <a href="https://tyreesjohnson.com/codenine" target="_blank"> <img src="/392a0b66f76733089e92a53087b88e85.png" alt="" /> </a>
+        </div>
         <h1 className={styles.title}>
         <img src="/9HEVzTes_400x400.png" alt="tyrees johnson" className="me"></img>
         </h1>
@@ -35,11 +38,29 @@ export default function Home() {
            }
          }
 
-          
+          .banner {
+            width:100% !important;
+            height:60px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:20px;
+            background: linear-gradient(-50deg,#ee5952,#ea3a7e,#20aadb,#0758f0);background-size: 320% 200%;-webkit-animation: 
+    Gradient 15s ease infinite;-moz-animation: Gradient 15s ease infinite;animation: 
+    Gradient 15s ease infinite;}@-webkit-keyframes 
+    Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@-moz-keyframes 
+    Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes 
+    Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%};
+          }
+
+
+          .banner img {
+            width:350px;
+          }
           
           `}
         </style>
-
+        
         <p className={styles.description}>
         Hey, I'm, {' '}
           <code className={styles.code}>Tyrees Johnson</code> a web developer.
