@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Tyrees Johnson</title>
         <link rel="icon" href="/favicon.png" />
+        <link href="/favicon.png" rel="apple-touch-icon"/>
         <script src="/codenine.min.js"></script>
       </Head>
 
