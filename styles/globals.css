@@ -35,6 +35,6 @@ a {
 @media(max-width:768px) {
   .languages {
     margin-top:20px;
-    width:50%;
+    width:auto;
   }
 }
