@@ -24,10 +24,17 @@ a {
   box-sizing: border-box;
 }
 
-.mystack {
+.languages {
   justify-content:center;
 }
 
-.mystack img {
+.languages img {
   margin:10px !important;
+}
+
+@media(max-width:768px) {
+  .languages {
+    margin-top:20px;
+    width:50%;
+  }
 }
