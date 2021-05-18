@@ -44,7 +44,7 @@ export default function Home() {
           <code className={styles.code}>Tyrees Johnson</code> a 19 Y/O web developer.
         </p>
 
-        <div className="languages">
+        <div class="languages">
         <img src="https://img.icons8.com/color/48/000000/html-5.svg"/>
         <img src="https://img.icons8.com/color/48/000000/css3.svg"/>
         <img src="https://img.icons8.com/color/48/000000/javascript.svg"/>
